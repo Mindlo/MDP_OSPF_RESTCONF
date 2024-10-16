@@ -1,0 +1,49 @@
+{
+    "Cisco-IOS-XE-native:native": {
+        "interface": {
+            "GigabitEthernet": [
+                {
+                    "name": "2",
+                    "ip": {
+                        "Cisco-IOS-XE-ospf:ospf": {
+                            "process-id": {
+                                "id": "1",
+                                "area": "0"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "3",
+                    "ip": {
+                        "Cisco-IOS-XE-ospf:ospf": {
+                            "process-id": {
+                                "id": "1",
+                                "area": "0"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "4",
+                    "ip": {
+                        "Cisco-IOS-XE-ospf:ospf": {
+                            "process-id": {
+                                "id": "1",
+                                "area": "0"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "router": {
+            "Cisco-IOS-XE-ospf:ospf": {
+                "id": "1",
+                "router-id": "10.255.1.102"
+
+            }
+        }
+    }
+
+}
