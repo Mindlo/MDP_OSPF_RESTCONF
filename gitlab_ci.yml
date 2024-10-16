@@ -1,0 +1,7 @@
+stages:
+- deploy
+
+deploy_ospf:
+  stage.deploy
+  script:
+    - python restconf-deploy.py
